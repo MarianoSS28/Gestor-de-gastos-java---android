@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Categoria_Empresa">
+
+        <item>Selecciona una categoría</item>
+        <item>Persona Juridica</item>
+        <item>Persona natural</item>
+
+    </string-array>
+
+</resources>

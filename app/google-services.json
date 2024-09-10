@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "768413369495",
+    "project_id": "gestordegastos-b5a63",
+    "storage_bucket": "gestordegastos-b5a63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768413369495:android:6417fd36c27e6f758ed5d2",
+        "android_client_info": {
+          "package_name": "com.lwglobaltechsa.gestordegastosfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQDF6tejyiA27OkvJ5tXGnMX0kEJPfWbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768413369495:android:71d858e924b06c348ed5d2",
+        "android_client_info": {
+          "package_name": "com.lwglobatechsa.gestosdegastosfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQDF6tejyiA27OkvJ5tXGnMX0kEJPfWbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

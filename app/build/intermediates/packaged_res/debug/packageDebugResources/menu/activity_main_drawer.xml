@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/hogar"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_registrargasto"
+            android:icon="@drawable/agregargasto"
+            android:title="Registrar Gastos" />
+        <item
+            android:id="@+id/nav_registrarempresa"
+            android:icon="@drawable/agregarempresa"
+            android:title="Registrar Empresa" />
+        <item
+            android:id="@+id/nav_historialgastos"
+            android:icon="@drawable/mostrarhistorial"
+            android:title="Historial de Gastos" />
+        <item
+            android:id="@+id/nav_listaempresa"
+            android:icon="@drawable/mostrarhistorial"
+            android:title="Lista de Empresas" />
+        <item
+            android:id="@+id/nav_reportegasto"
+            android:icon="@drawable/mostrarhistorial"
+            android:title="Reporte de Gastos" />
+    </group>
+</menu>

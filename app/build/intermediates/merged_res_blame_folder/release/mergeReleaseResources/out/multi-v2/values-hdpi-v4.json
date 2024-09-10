@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-51:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\bryan\\.gradle\\caches\\transforms-4\\8674f44e942e930c04d48a090b3a1b51\\transformed\\appcompat-1.7.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

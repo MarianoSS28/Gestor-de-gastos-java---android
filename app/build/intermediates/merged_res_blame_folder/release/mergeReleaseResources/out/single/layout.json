@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/fragment_historial_gastos.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/fragment_historial_gastos.xml"
+    },
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/fragment_reporte_gasto.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/fragment_reporte_gasto.xml"
+    },
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/activity_crear_cuenta.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/activity_crear_cuenta.xml"
+    },
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/item_detalle_empresa.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/item_detalle_empresa.xml"
+    },
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/dialog_alert_empresa.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/dialog_alert_empresa.xml"
+    },
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/app_bar_main.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/app_bar_main.xml"
+    },
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/content_main.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/content_main.xml"
+    },
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/item_detalle_gasto.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/item_detalle_gasto.xml"
+    },
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/activity_login.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/fragment_registrar_gasto.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/fragment_registrar_gasto.xml"
+    },
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/fragment_registrar_empresa.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/fragment_registrar_empresa.xml"
+    },
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/fragment_home.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/dialog_alert_gasto.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/dialog_alert_gasto.xml"
+    },
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/activity_main.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/fragment_lista_empresas.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/fragment_lista_empresas.xml"
+    },
+    {
+        "merged": "com.lwglobatechsa.gestosdegastosfinal.app-mergeReleaseResources-52:/layout/nav_header_main.xml",
+        "source": "com.lwglobatechsa.gestosdegastosfinal.app-main-54:/layout/nav_header_main.xml"
+    }
+]

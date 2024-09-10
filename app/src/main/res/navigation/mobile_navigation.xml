@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.lwglobatechsa.gestosdegastosfinal.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_historialgastos"
+        android:name="com.lwglobatechsa.gestosdegastosfinal.ui.historialgastos.HistorialGastos"
+        android:label="Historial de Gastos"
+        tools:layout="@layout/fragment_historial_gastos" />
+    <fragment
+        android:id="@+id/nav_listaempresa"
+        android:name="com.lwglobatechsa.gestosdegastosfinal.ui.listaempresas.ListaEmpresas"
+        android:label="Lista de Empresas"
+        tools:layout="@layout/fragment_lista_empresas" />
+    <fragment
+        android:id="@+id/nav_registrarempresa"
+        android:name="com.lwglobatechsa.gestosdegastosfinal.ui.registrarempresa.RegistrarEmpresa"
+        android:label="Registrar Empresas"
+        tools:layout="@layout/fragment_registrar_empresa" />
+    <fragment
+        android:id="@+id/nav_registrargasto"
+        android:name="com.lwglobatechsa.gestosdegastosfinal.ui.registrargastos.RegistrarGasto"
+        android:label="Registrar Gasto"
+        tools:layout="@layout/fragment_registrar_gasto" />
+    <fragment
+        android:id="@+id/nav_reportegasto"
+        android:name="com.lwglobatechsa.gestosdegastosfinal.ui.reportegastos.ReporteGasto"
+        android:label="Reporte de gastos"
+        tools:layout="@layout/fragment_reporte_gasto" />
+
+</navigation>

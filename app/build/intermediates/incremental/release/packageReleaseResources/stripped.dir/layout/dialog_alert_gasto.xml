@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spnListaEmpresaEditar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="8sp"
+        android:entries="@array/Empresas" />
+
+    <EditText
+        android:id="@+id/edtNuevaDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="8sp"
+        android:ems="10"
+        android:hint="Ingresar Nueva Descripción"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtNuevoMonto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="8sp"
+        android:ems="10"
+        android:hint="Ingresar Nuevo Monto"
+        android:inputType="numberDecimal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8sp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGuarfarGasto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp"
+            android:layout_weight="1"
+            android:backgroundTint="#009688"
+            android:text="Guardar" />
+
+        <Button
+            android:id="@+id/btnCancelarEdicionGasto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp"
+            android:layout_weight="1"
+            android:backgroundTint="#009688"
+            android:text="Cancelar" />
+    </LinearLayout>
+</LinearLayout>

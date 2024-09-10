@@ -1,0 +1,3 @@
+com.lwglobatechsa.gestosdegastosfinal.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

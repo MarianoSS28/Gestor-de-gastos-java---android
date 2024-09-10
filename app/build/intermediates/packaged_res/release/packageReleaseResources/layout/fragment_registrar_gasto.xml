@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.registrargastos.RegistrarGasto" >
+
+    <Spinner
+        android:id="@+id/spnListaEmpresas"
+        android:layout_width="397dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="72dp"
+        android:entries="@array/Empresas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtDescripcionGasto"
+        android:layout_width="390dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:hint="Ingresa una breve descripción del gasto"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spnListaEmpresas" />
+
+    <EditText
+        android:id="@+id/edtMontoGasto"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="71dp"
+        android:ems="10"
+        android:hint="Ingresa Monto del gasto"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtDescripcionGasto" />
+
+    <Button
+        android:id="@+id/btnRegistrarGasto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="#009688"
+        android:text="Registrar Gasto"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtMontoGasto" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="195dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="102dp"
+        android:src="@drawable/logoempresa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistrarGasto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="Empresas">
+
+        <item>Espere un momento a que carge</item>
+
+    </string-array>
+
+</resources>
